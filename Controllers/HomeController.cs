@@ -23,9 +23,23 @@ namespace FrontendTasks.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Tareas()
         {
-            return View();
+
+            List<Tarea> tareas = new List<Tarea>()
+            {
+                new Tarea{descripcion="Hola",idPersona=1,idTarea=5,estado="Pendiente",prioridad="Alta",fecFinal="2020-12-24",fecInicio="2020-12-23",notas="Nada"}
+            };
+            return View(tareas);
+        }
+        public IActionResult AddTareas()
+        {
+
+            List<Tarea> tareas = new List<Tarea>()
+            {
+                new Tarea{descripcion="Hola",idPersona=1,idTarea=5,estado="Pendiente",prioridad="Alta",fecFinal="2020-12-24",fecInicio="2020-12-23",notas="Nada"}
+            };
+            return View(tareas);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -33,5 +47,18 @@ namespace FrontendTasks.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+    }
+    public class Tarea
+    {
+       public int idTarea{ get; set; }
+       public string descripcion { get; set; } 
+       public string estado { get; set; } 
+       public string prioridad { get; set; } 
+       public string fecInicio { get; set; } 
+       public string fecFinal { get; set; } 
+       public int idPersona { get; set; } 
+       public string notas { get; set; } 
+
+        public void getNamePerson() { }
     }
 }

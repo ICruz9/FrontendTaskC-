@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.0": {
       "FrontendTasks/1.0.0": {
         "dependencies": {
+          "FontAwesome.Sharp": "5.15.3",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -312,6 +313,17 @@
         },
         "compile": {
           "FrontendTasks.dll": {}
+        }
+      },
+      "FontAwesome.Sharp/5.15.3": {
+        "runtime": {
+          "lib/net45/FontAwesome.Sharp.dll": {
+            "assemblyVersion": "5.15.3.0",
+            "fileVersion": "5.15.3.0"
+          }
+        },
+        "compile": {
+          "lib/net45/FontAwesome.Sharp.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2013,6 +2025,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FontAwesome.Sharp/5.15.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b72giuP5i2aR2W+u1gdYfYnTRkMIvI78idSDgrgcSV0aSE/nwJcMoh3sItxugMqOcNeIHxveGxAxcrcTYmwlHA==",
+      "path": "fontawesome.sharp/5.15.3",
+      "hashPath": "fontawesome.sharp.5.15.3.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
       "type": "referenceassembly",

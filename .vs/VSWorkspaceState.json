@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Shared",
+    "\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\Views\\Home\\AddTareas.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -33,3 +33,40 @@ E:\Proyecto C#\FrontendTasks\obj\Debug\netcoreapp3.0\FrontendTasks.Views.pdb
 E:\Proyecto C#\FrontendTasks\obj\Debug\netcoreapp3.0\FrontendTasks.dll
 E:\Proyecto C#\FrontendTasks\obj\Debug\netcoreapp3.0\FrontendTasks.pdb
 E:\Proyecto C#\FrontendTasks\obj\Debug\netcoreapp3.0\FrontendTasks.csproj.CopyComplete
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\staticwebassets\FrontendTasks.StaticWebAssets.Manifest.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\staticwebassets\FrontendTasks.StaticWebAssets.xml
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.RazorAssemblyInfo.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.dll
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.pdb
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.exe
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.deps.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.runtimeconfig.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.dll
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.pdb
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.Views.dll
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FrontendTasks.Views.pdb
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.TagHelpers.input.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.TagHelpers.output.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.RazorCoreGenerate.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.RazorTargetAssemblyInfo.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.Views.pdb
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.csproj.CopyComplete
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\AddTareas.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Tareas.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FontAwesome.Sharp.dll
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.MvcApplicationPartsAssemblyInfo.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyecto C#\\FrontendTasks\\FrontendTasks.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\TECNICA\\FrontendTaskC-\\FrontendTasks.csproj": {}
   },
   "projects": {
-    "E:\\Proyecto C#\\FrontendTasks\\FrontendTasks.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\TECNICA\\FrontendTaskC-\\FrontendTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyecto C#\\FrontendTasks\\FrontendTasks.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TECNICA\\FrontendTaskC-\\FrontendTasks.csproj",
         "projectName": "FrontendTasks",
-        "projectPath": "E:\\Proyecto C#\\FrontendTasks\\FrontendTasks.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\TECNICA\\FrontendTaskC-\\FrontendTasks.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyecto C#\\FrontendTasks\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\TECNICA\\FrontendTaskC-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[5.15.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

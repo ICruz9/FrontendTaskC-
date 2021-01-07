@@ -1,0 +1,126 @@
+﻿@using FrontendTasks.Controllers
+@model List<Tarea>
+
+
+@{
+    ViewData["Title"] = "Lista de Tareas";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Puedes ver, editar o incluso eliminar una tarea.</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Descripcion</td>
+            <td>Prioridad</td>
+            <td>Estado</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.idTarea</td>
+                    <td>@item.descripcion</td>
+                    <td>@item.prioridad</td>
+                    <td>@item.estado</td>
+                    <td>
+                        <a style="padding-left:15px;">
+                            <button type="button" id="openModalButton" [hidden]="true" data-toggle="modal" data-target="#viewModal" data-controls-modal="#defaultModal" data-backdrop="static" data-keyboard="false" href="#" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Ver Tarea"><i class="fas fa-eye"></i></button>
+                        </a>
+                        @{ if (item.estado != "Finalizada")
+                            {
+                                <a style="padding-left:15px;">
+                                    <button id="openModalButton" [hidden]="true" data-toggle="modal" data-target="#editModal" data-controls-modal="#defaultModal" data-backdrop="static" data-keyboard="false" href="#" class="btn btn-outline-warning" data-toggle="tooltip" data-placement="top" title="Editar Tarea"><i class="fas fa-edit"></i></button>
+
+                                </a>
+                                <a style="padding-left:15px;">
+                                    <button type="button" class="btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Eliminar Tarea"><i class="fas fa-trash-alt"></i></button>
+                                </a>
+
+                            }
+                        }
+
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header modalCenterOption" *ngIf="this.mobSelected != ''">
+                <label class="infoModalTitle" id="defaultModalLabel1">Titulo head</label>
+            </div>
+            <div class="modal-body">
+                <div class="row clearfix">
+                    <div class="col-sm-12 noselect">
+                        <div class="text font-bold">Capacidad:</div>
+
+                        <label>Material de apoyo propio de inmueble:</label>
+                        <ul class="mobContainer">
+                            <li class="flexBx detailbar">
+                                <div style="width: 150px">Detalle</div><div style="width: 70px; text-align: center;padding-left: 15px;">Cantidad</div>
+                            </li>
+                            <div style="overflow-y: scroll; max-height: 180px;">
+
+                                <li class="flexBx" *ngIf="furniture.length == 0">
+                                    <div>Este inmueble no posee material adjunto</div>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger waves-effect" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header modalCenterOption" *ngIf="this.mobSelected != ''">
+                <label class="infoModalTitle" id="defaultModalLabel1">Titulo head</label>
+            </div>
+            <div class="modal-body">
+                <div class="row clearfix">
+                    <div class="col-sm-12 noselect">
+                        <div class="text font-bold">Capacidad:</div>
+
+                        <label>Material de apoyo propio de inmueble:</label>
+                        <ul class="mobContainer">
+                            <li class="flexBx detailbar">
+                                <div style="width: 150px">Detalle</div><div style="width: 70px; text-align: center;padding-left: 15px;">Cantidad</div>
+                            </li>
+                            <div style="overflow-y: scroll; max-height: 180px;">
+
+                                <li class="flexBx" *ngIf="furniture.length == 0">
+                                    <div>Este inmueble no posee material adjunto</div>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger waves-effect" data-dismiss="modal">Atrás</button>
+                <button type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Actualizar</button>
+            </div>
+        </div>
+    </div>
+</div>
