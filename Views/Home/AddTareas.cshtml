@@ -1,34 +1,40 @@
-﻿<div style="width:600px;" class="card">
-    <h4  style="text-align:center; font-weight:bold;" class="mt-2 mb-2">
+﻿@using FrontendTasks.Controllers
+@model dynamic
+
+<form action="Insertado"  method="post" style="width:600px;" id="form_id" class="card">
+    <h4 style="text-align:center; font-weight:bold;" class="mt-2 mb-2">
         Agregar una Tarea
     </h4>
     <div class="card-body">
         <div class="form-group">
             <label style="color:cornflowerblue; font-weight:bold;">Descripción de la tarea</label>
-            <input id="form1" type="text" name="descripcion" class="form-control" placeholder="Descripción" />
+            <input id="form1" type="text" name="description" class="form-control" placeholder="Descripción" />
         </div>
         <div class="form-group">
             <label style="color:cornflowerblue; font-weight:bold;">Responsable de la tarea</label>
             <select name="person" class="form-control">
-                <option>Ignacio</option>
-                <option>Carlos</option>
-                <option>Manuel</option>
+                @{ foreach (var item in Model.Personas)
+                    {
+                       <option value="@item.idPeople">@item.namePeople</option>
+                    }
+
+                }
             </select>
         </div>
         <div class="form-group">
             <label style="color:cornflowerblue; font-weight:bold;">Estado de la tarea</label>
-            <select name="estado" class="form-control">
-                <option>En Proceso</option>
-                <option>Pendiente</option>
-                <option>Finalizada</option>
+            <select name="state" class="form-control">
+                <option value="Pendiente">Pendiente</option>
+                <option value="En Proceso">En Proceso</option>
+                <option value="Finalizada">Finalizada</option>
             </select>
         </div>
         <div class="form-group">
             <label style="color:cornflowerblue; font-weight:bold;">Prioridad de la tarea</label>
             <select name="priority" class="form-control">
-                <option>Baja</option>
-                <option>Media</option>
-                <option>Alta</option>
+                <option value="Baja">Baja</option>
+                <option value="Media">Media</option>
+                <option value="Alta">Alta</option>
             </select>
         </div>
         <div class="form-group">
@@ -41,10 +47,10 @@
         </div>
         <div class="form-group">
             <label style="color:cornflowerblue; font-weight:bold;">Notas Extra</label>
-            <textarea id="form1" type="text" name="notas" class="form-control input-group-lg" placeholder="Escribe tus notas.."></textarea>
+            <textarea id="form1" type="text" name="notes" class="form-control input-group-lg" placeholder="Escribe tus notas.."></textarea>
         </div>
         <div style="text-align:center;">
             <button type="submit" class="btn btn-outline-primary">Agregar</button>
         </div>
     </div>
-</div>
+</form>

@@ -11,7 +11,7 @@
 
         <p>Puedes ver, editar o incluso eliminar una tarea.</p>
         <br />
-        <form action="EditTareas" method="post">
+        <form action="Tareas" method="post">
             <div data-role="fieldcontain" class="ui-hide-label">
                 <label style="font-weight:bold;">Estado:</label>
                 <select name="state">
@@ -45,11 +45,10 @@
                 <input id="form1" type="date" name="fecinicio" placeholder="Fecha Inicio" />
                 <input id="form1" type="date" name="fecfinal" placeholder="Fecha Final" />
                 <a style="padding-left:25px;">
-                    <button type="submit" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Buscar Tarea"><i class="fas fa-search"></i></button>
+                    <button type="submit" class="btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Buscar Tarea">Reiniciar Filtros</button>
                 </a>
             </div>
         </form>
-
         <br />
         <table class="table table-striped">
             <thead>

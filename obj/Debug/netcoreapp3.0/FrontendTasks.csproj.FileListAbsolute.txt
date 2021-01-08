@@ -70,3 +70,8 @@ C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Vi
 C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\FontAwesome.Sharp.dll
 C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\FrontendTasks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Insertado.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Actualizado.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\Eliminado.cshtml.g.cs
+C:\Users\Usuario\Desktop\TECNICA\FrontendTaskC-\obj\Debug\netcoreapp3.0\Razor\Views\Home\EditTareas.cshtml.g.cs
