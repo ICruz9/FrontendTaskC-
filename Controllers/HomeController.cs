@@ -46,6 +46,26 @@ namespace FrontendTasks.Controllers
             return tareas;
 
         }
+        public List<Tarea> GetTareasFiltro(string priority, string state, int person, string fecInicio, string fecFinal)
+        {
+
+            List<Tarea> tareas = new List<Tarea>();
+
+            
+            string url = "https://localhost:44376/api/Services/taskByFilter" + person + "*" + state + "*" + priority + "*" + fecInicio + "*" + fecFinal;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                var json = reader.ReadToEnd();
+                tareas = JsonConvert.DeserializeObject<List<Tarea>>(json);
+            }
+
+            return tareas;
+
+        }
         public List<Persona> GetPersonas()
         {
 
@@ -75,11 +95,15 @@ namespace FrontendTasks.Controllers
             return View(mymodel);
 
         }
-        public IActionResult EditTareas()
+        public IActionResult EditTareas(string priority, string state, int person, string fecInicio, string fecFinal)
         {
-
+            if (fecInicio == null | fecFinal == null)
+            {
+                fecInicio = "1000-01-01";
+                fecFinal = "1000-01-01";
+            }
             dynamic mymodel = new ExpandoObject();
-            mymodel.Tareas = GetTareas();
+            mymodel.Tareas = GetTareasFiltro(priority, state, person, fecInicio, fecFinal); ;
             mymodel.Personas = GetPersonas();
             return View(mymodel);
 
